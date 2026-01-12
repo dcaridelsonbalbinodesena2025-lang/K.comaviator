@@ -89,7 +89,7 @@
         .destaque-linha { border: 2px solid var(--cor-verde) !important; background: #002200 !important; }
         
         .painel-financeiro { background: #222; padding: 6px; border-radius: 10px; margin-bottom: 5px; display: flex; justify-content: space-around; }
-        .fin-item { text-align: center; } .fin-label { font-size: 1rem; color: #aaa; display: block; } .fin-valor { font-size: 1rem; color: #fff; }
+        .fin-item { text-align: center; } .fin-label { font-size: 0.7rem; color: #aaa; display: block; } .fin-valor { font-size: 1rem; color: #fff; }
         .tendencia-box { background: #000; padding: 5px 10px; border-radius: 8px; margin-bottom: 5px; border-left: 3px solid var(--aviator-azul); display: flex; justify-content: space-between; align-items: center; min-height: 40px;}
         .tend-label { font-size: 0.8rem; color: #888; } .tend-status { font-size: 1rem; font-weight: bold; }
         .painel-status { background: #000; padding: 16px; border-radius: 10px; margin-bottom: 5px; border: 1px solid #333; flex: 1; overflow-y: auto; }
@@ -145,14 +145,14 @@
         <div class="painel-financeiro">
             <div class="fin-item"><span class="fin-label">BANCA</span><span class="fin-valor" id="banca-val">0.00</span></div>
             <div class="fin-item"><span class="fin-label">APOSTA</span><span class="fin-valor" id="aposta-val">0.00</span></div>
-            <button onclick="abrirConfig()" style="background:none; border:none; cursor:pointer; font-size: 1.2rem;">⚙️</button>
+            <button onclick="abrirConfig()" style="background:none; border:none; cursor:pointer; font-size: 0.7rem;">⚙️</button>
         </div>
 
         <div class="grade" id="grade"></div>
 
         <div class="tendencia-box" id="tendencia-visual">
             <div><span class="tend-label";>TENDÊNCIA:</span><br><span class="tend-status" id="tend-txt";>AGUARDANDO...</span></div>
-            <div style="text-align: right;"><span class="tend-label">FORÇA G:</span><br><span id="tend-forca" style="font-weight: bold;  font-size: 20px; color: var(--cor-verde);">0%</span></div>
+            <div style="text-align: right;"><span class="tend-label">FORÇA G:</span><br><span id="tend-forca" style="font-weight: bold;  font-size: 15px; color: var(--cor-verde);">0%</span></div>
         </div>
 
         <div class="painel-status">
@@ -162,7 +162,7 @@
 
         <div style="display: flex; gap: 5px; margin-bottom: 5px;">
             <div class="visor" id="visor-val" style="flex: 1; margin-bottom: 0;">0.00</div>
-            <div id="msg-analisador-azul" style="flex: 2.5; background: #0000ff; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: bold; text-align: center; padding: 5px;">
+            <div id="msg-analisador-azul" style="flex: 2.5; background: #0000ff; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; text-align: center; padding: 5px;">
                 AGUARDANDO DADOS...
             </div>
         </div>
