@@ -36,25 +36,10 @@
             gap: 20px; 
             font-size: 1.5rem;
             border-right: 1px solid #333;
-            font-weight: bold; /* Adicionado Negrito conforme solicitado */
+            font-weight: bold; /* Texto em negrito conforme solicitado */
         }
         .placar-g-geral { color: #00FF00; }
         .placar-r-geral { color: #FF6347; }
-
-        .cronometro-box { 
-            width: 50%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            gap: 12px; 
-            font-size: 1.5rem;
-        }
-
-        .calculadora {
-            width: 95vw; max-width: 460px; height: 92vh; background: #1a1a1a;
-            border-radius: 20px; border: 2px solid #333; padding: 8px;
-            display: flex; flex-direction: column; position: relative; margin-top: 10px;
-        }
 
         /* Estilos para o fundo dos indicadores W e R */
         .badge-w {
@@ -70,6 +55,21 @@
             padding: 2px 6px;
             border-radius: 4px;
             font-weight: bold;
+        }
+
+        .cronometro-box { 
+            width: 50%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            gap: 12px; 
+            font-size: 1.5rem;
+        }
+
+        .calculadora {
+            width: 95vw; max-width: 460px; height: 92vh; background: #1a1a1a;
+            border-radius: 20px; border: 2px solid #333; padding: 8px;
+            display: flex; flex-direction: column; position: relative; margin-top: 10px;
         }
 
         .brilho-verde { color: #00ff00 !important; text-shadow: 0 0 10px #00ff00; transition: 0.3s; }
@@ -113,8 +113,8 @@
         
         .visor { background: #000; border: 1px solid #333; border-radius: 10px; height: 40px; display: flex; align-items: center; justify-content: center; color: var(--cor-verde); font-size: 1.5rem; margin-bottom: 5px; }
         
-        /* TECLADO AJUSTADO (Altura aumentada conforme pedido) */
-        .teclado-grid { display: grid; grid-template-columns: repeat(3, 1fr) 1.2fr; grid-template-rows: repeat(4, 55px) 60px; gap: 5px; }
+        /* TECLADO AJUSTADO */
+        .teclado-grid { display: grid; grid-template-columns: repeat(3, 1fr) 1.2fr; grid-template-rows: repeat(4, 50px) 50px; gap: 5px; }
         .btn-n { background: #333; color: white; border: none; border-radius: 8px; font-size: 1.8rem; font-weight: bold; cursor: pointer; }
         .btn-c { background: var(--cor-vermelha); color: white; border: none; border-radius: 8px; font-size: 1.8rem; font-weight: bold; cursor: pointer; }
         .btn-acao { border: none; border-radius: 8px; font-weight: bold; cursor: pointer; text-transform: uppercase; }
@@ -134,7 +134,7 @@
         .input-config { width: 100%; padding: 8px; margin: 4px 0; background: #333; color: white; border: 1px solid #444; border-radius: 6px; }
 
         .area-grade-infinita { flex: 1; overflow-y: auto; background: #000; padding: 5px; display: grid; grid-template-columns: repeat(7, 1fr); align-content: start; gap: 4px; }
-        .vela-hist-inf { height: 35px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: bold; border: 2px solid transparent; }
+        .vela-hist-inf { height: 35px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: bold; border: 2px solid transparent; }
         .borda-padrao { border-color: white !important; }
         .vela-green { border-color: #00ff00 !important; }
         .vela-gale { border-color: #f1c40f !important; }
